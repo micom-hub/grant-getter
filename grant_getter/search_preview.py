@@ -16,7 +16,6 @@ from grant_getter.cli import (
 )
 from grant_getter.rss import grants_gov_detail_url
 
-
 OUTPUT_COLUMNS = [
     "id",
     "number",

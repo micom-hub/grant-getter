@@ -2,7 +2,7 @@
     
 Thought of this as a lightweight way to deduplicate IDs so the Slack isn't spammed with past opportunities each time it is queried. """
 import json  # noqa: I001
-from datetime import datetime, timezone
+from datetime import datetime, UTC
 from pathlib import Path
 from typing import Any, Self
 
@@ -12,7 +12,7 @@ import sqlite3
 def utc_now() -> str:
     """Return the current UTC time in ISO 8601 format."""
 
-    return datetime.now(timezone.utc).isoformat()
+    return datetime.now(UTC).isoformat()
 
 # Class that stores grant.gov opportunities we've already seen in a db
 # don't re-spam the slack for every polling
