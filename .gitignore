@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+__pycache__/
+.venv/
+.env
+secrets/
+*.secret
+.DS_Store
+state/

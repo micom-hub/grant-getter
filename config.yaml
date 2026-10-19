@@ -1,0 +1,43 @@
+# Config file for API searches
+
+api:
+  search_url: "https://api.grants.gov/v1/api/search2"
+  timeout_seconds: 30
+  rows_per_page: 100
+  max_pages_per_search: 5
+
+   # grab both forecasted + posted positions
+  defaults:
+    oppStatuses: "forecasted|posted"
+
+notifications:
+  heading: "New potentially relevant grant opportunities"
+  max_new_per_run: 10
+
+searches:
+# Refine this search to gather informatics + data stuff
+  - name: "Public health technology and data"
+    criteria:
+      keyword: "public health informatics"
+
+# Refine this search to grab community and local targeted stuff
+  - name: "Community and local public health"
+    criteria:
+      keyword: "local health department"
+
+# Refine this search to get workforce training
+  - name: "Public health training and workforce"
+    criteria:
+      keyword: "public health workforce training"
+
+# our RSS feed
+rss:
+  # where grant getter locally writes the feed xml 
+  output_path: "public/feed.xml"
+  # internal url for local testing, replace with github pages
+  feed_url: "http://localhost:8000/feed.xml"
+  site_url: "https://www.grants.gov/"
+  title: "Grant Getter Opportunities"
+  description: "Potentially relevant Grants.gov opportunities"
+  language: "en-us"
+  max_items: 50
