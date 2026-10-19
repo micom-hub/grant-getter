@@ -1,0 +1,44 @@
+2026-10-19 15:29:57,448 INFO grant_getter.api: Searching 'Public health technology and data', page 1, startRecordNum=0, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:29:57,886 INFO grant_getter.api: Searching 'Public health technology and data', page 2, startRecordNum=100, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:29:58,032 INFO grant_getter.api: Searching 'Public health technology and data', page 3, startRecordNum=200, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:29:58,181 INFO grant_getter.api: Searching 'Public health technology and data', page 4, startRecordNum=300, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:29:58,343 INFO grant_getter.api: Searching 'Public health technology and data', page 5, startRecordNum=400, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:29:58,489 WARNING grant_getter.api: Search 'Public health technology and data' reached the configured page limit of 5. The API reported 899 total matching records, and Grant Getter collected 500.
+2026-10-19 15:29:58,490 INFO grant_getter.cli: Search 'Public health technology and data' returned 500 distinct results.
+2026-10-19 15:29:58,491 INFO grant_getter.api: Searching 'Community and local public health', page 1, startRecordNum=0, criteria={'keyword': 'local health department'}
+2026-10-19 15:29:58,664 INFO grant_getter.api: Searching 'Community and local public health', page 2, startRecordNum=100, criteria={'keyword': 'local health department'}
+2026-10-19 15:29:58,868 INFO grant_getter.api: Searching 'Community and local public health', page 3, startRecordNum=200, criteria={'keyword': 'local health department'}
+2026-10-19 15:29:59,040 INFO grant_getter.api: Searching 'Community and local public health', page 4, startRecordNum=300, criteria={'keyword': 'local health department'}
+2026-10-19 15:29:59,235 INFO grant_getter.api: Searching 'Community and local public health', page 5, startRecordNum=400, criteria={'keyword': 'local health department'}
+2026-10-19 15:29:59,393 WARNING grant_getter.api: Search 'Community and local public health' reached the configured page limit of 5. The API reported 894 total matching records, and Grant Getter collected 500.
+2026-10-19 15:29:59,393 INFO grant_getter.cli: Search 'Community and local public health' returned 500 distinct results.
+2026-10-19 15:29:59,394 INFO grant_getter.api: Searching 'Public health training and workforce', page 1, startRecordNum=0, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:29:59,617 INFO grant_getter.api: Searching 'Public health training and workforce', page 2, startRecordNum=100, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:29:59,796 INFO grant_getter.api: Searching 'Public health training and workforce', page 3, startRecordNum=200, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:29:59,956 INFO grant_getter.api: Searching 'Public health training and workforce', page 4, startRecordNum=300, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:00,069 INFO grant_getter.api: Searching 'Public health training and workforce', page 5, startRecordNum=400, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:00,182 WARNING grant_getter.api: Search 'Public health training and workforce' reached the configured page limit of 5. The API reported 1008 total matching records, and Grant Getter collected 500.
+2026-10-19 15:30:00,183 INFO grant_getter.cli: Search 'Public health training and workforce' returned 500 distinct results.
+2026-10-19 15:30:00,183 INFO grant_getter.cli: All searches produced 789 distinct opportunities.
+2026-10-19 15:30:17,265 INFO grant_getter.api: Searching 'Public health technology and data', page 1, startRecordNum=0, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:30:17,621 INFO grant_getter.api: Searching 'Public health technology and data', page 2, startRecordNum=100, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:30:17,734 INFO grant_getter.api: Searching 'Public health technology and data', page 3, startRecordNum=200, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:30:17,839 INFO grant_getter.api: Searching 'Public health technology and data', page 4, startRecordNum=300, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:30:17,939 INFO grant_getter.api: Searching 'Public health technology and data', page 5, startRecordNum=400, criteria={'keyword': 'public health informatics'}
+2026-10-19 15:30:18,077 WARNING grant_getter.api: Search 'Public health technology and data' reached the configured page limit of 5. The API reported 899 total matching records, and Grant Getter collected 500.
+2026-10-19 15:30:18,078 INFO grant_getter.cli: Search 'Public health technology and data' returned 500 distinct results.
+2026-10-19 15:30:18,079 INFO grant_getter.api: Searching 'Community and local public health', page 1, startRecordNum=0, criteria={'keyword': 'local health department'}
+2026-10-19 15:30:18,264 INFO grant_getter.api: Searching 'Community and local public health', page 2, startRecordNum=100, criteria={'keyword': 'local health department'}
+2026-10-19 15:30:18,366 INFO grant_getter.api: Searching 'Community and local public health', page 3, startRecordNum=200, criteria={'keyword': 'local health department'}
+2026-10-19 15:30:18,470 INFO grant_getter.api: Searching 'Community and local public health', page 4, startRecordNum=300, criteria={'keyword': 'local health department'}
+2026-10-19 15:30:18,559 INFO grant_getter.api: Searching 'Community and local public health', page 5, startRecordNum=400, criteria={'keyword': 'local health department'}
+2026-10-19 15:30:18,678 WARNING grant_getter.api: Search 'Community and local public health' reached the configured page limit of 5. The API reported 894 total matching records, and Grant Getter collected 500.
+2026-10-19 15:30:18,679 INFO grant_getter.cli: Search 'Community and local public health' returned 500 distinct results.
+2026-10-19 15:30:18,679 INFO grant_getter.api: Searching 'Public health training and workforce', page 1, startRecordNum=0, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:18,789 INFO grant_getter.api: Searching 'Public health training and workforce', page 2, startRecordNum=100, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:18,932 INFO grant_getter.api: Searching 'Public health training and workforce', page 3, startRecordNum=200, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:19,051 INFO grant_getter.api: Searching 'Public health training and workforce', page 4, startRecordNum=300, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:19,155 INFO grant_getter.api: Searching 'Public health training and workforce', page 5, startRecordNum=400, criteria={'keyword': 'public health workforce training'}
+2026-10-19 15:30:19,314 WARNING grant_getter.api: Search 'Public health training and workforce' reached the configured page limit of 5. The API reported 1008 total matching records, and Grant Getter collected 500.
+2026-10-19 15:30:19,315 INFO grant_getter.cli: Search 'Public health training and workforce' returned 500 distinct results.
+2026-10-19 15:30:19,316 INFO grant_getter.cli: All searches produced 789 distinct opportunities.
