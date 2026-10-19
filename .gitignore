@@ -7,3 +7,4 @@ secrets/
 *.secret
 .DS_Store
 state/
+test.csv
